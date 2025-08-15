@@ -20,11 +20,11 @@ Our web app facilitates lodging crime complaints, providing separate portals for
 
 ## ScreenShots
 Home page-
- ![Home](https://i.ibb.co/HxrtRMy/Screenshot-2023-04-17-022024.png)
+ ![Home](https://i.ibb.co/HxrtRMy/Screenshot-2025-04-17-022024.png)
 Register page-
- ![Register](https://i.ibb.co/GMdkxTt/Screenshot-2023-04-17-022117.png)
+ ![Register](https://i.ibb.co/GMdkxTt/Screenshot-2025-04-17-022117.png)
 Login page-
- ![Login](https://i.ibb.co/zZLXx9g/Screenshot-2023-04-17-022159.png)
+ ![Login](https://i.ibb.co/zZLXx9g/Screenshot-2025-04-17-022159.png)
 
 
 
