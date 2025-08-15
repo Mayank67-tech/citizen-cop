@@ -6,10 +6,10 @@ import Paper from "@mui/material/Paper";
 import { withStyles } from "@material-ui/core/styles";
 
 const WhiteTextTypography = withStyles({
-    root: {
-      color: "#FFFFFF"
-    }
-  })(Typography);
+  root: {
+    color: "#FFFFFF"
+  }
+})(Typography);
 
 export default function GuestFooter() {
   return (
@@ -35,7 +35,6 @@ export default function GuestFooter() {
             my: 1
           }}
         >
-
         </Box>
 
         <Box
@@ -47,11 +46,17 @@ export default function GuestFooter() {
           }}
         >
           <Typography variant="caption" color="textPrimary">
-            <a href="/about-us" style={{ textDecoration: 'none', color: 'inherit' }}><WhiteTextTypography variant="caption">
-            About Us
-            </WhiteTextTypography></a> | <a href="/contact-us" style={{ textDecoration: 'none', color: 'inherit' }}><WhiteTextTypography variant="caption">
-            Contact Us
-            </WhiteTextTypography></a>
+            <a href="/about-us" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <WhiteTextTypography variant="caption">
+                About Us
+              </WhiteTextTypography>
+            </a>
+            {" | "}
+            <a href="/contact-us" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <WhiteTextTypography variant="caption">
+                Contact Us
+              </WhiteTextTypography>
+            </a>
           </Typography>
         </Box>
 
@@ -64,10 +69,9 @@ export default function GuestFooter() {
           }}
         >
           <Typography variant="caption" color="initial">
-          <WhiteTextTypography variant="caption">
-            Copyright ©2022. Limited 
+            <WhiteTextTypography variant="caption">
+              Copyright ©{new Date().getFullYear()}. Limited
             </WhiteTextTypography>
-            
           </Typography>
         </Box>
       </Container>
